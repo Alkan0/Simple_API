@@ -1,0 +1,267 @@
+[
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "GetBusinessById",
+    "RelativePath": "api/Businesses/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "ActivateBusiness",
+    "RelativePath": "api/Businesses/{id}/Activate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "DeactivateBusiness",
+    "RelativePath": "api/Businesses/{id}/Deactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "GetBusinessRelations",
+    "RelativePath": "api/Businesses/{id}/Relations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "UpdateBusinessAddress",
+    "RelativePath": "api/Businesses/{id}/UpdateAddress",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "address",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "UpdateBusinessName",
+    "RelativePath": "api/Businesses/{id}/UpdateName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "UpdateBusinessPhones",
+    "RelativePath": "api/Businesses/{id}/UpdatePhones",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "phones",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "GetAllActiveContracts",
+    "RelativePath": "api/Businesses/ActiveContracts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "GetActiveContractsByBusinessId",
+    "RelativePath": "api/Businesses/ActiveContracts/{businessId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "businessId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "AddBusiness",
+    "RelativePath": "api/Businesses/AddBusiness",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "businessDto",
+        "Type": "Xo_Test.Dtos.BusinessCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "AddContract",
+    "RelativePath": "api/Businesses/AddContract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contractDto",
+        "Type": "Xo_Test.Dtos.ContractDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Businesses/AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDto",
+        "Type": "Xo_Test.Dtos.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "AddRelation",
+    "RelativePath": "api/Businesses/AddRelation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "relationDto",
+        "Type": "Xo_Test.Dtos.BusinessRelationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "GetBusinessesByName",
+    "RelativePath": "api/Businesses/ByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "GetBusinessesByPhone",
+    "RelativePath": "api/Businesses/ByPhone",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phone",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xo_Test.Controllers.BusinessesController",
+    "Method": "GetBusinessesByZipCode",
+    "RelativePath": "api/Businesses/ByZipCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "zipCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

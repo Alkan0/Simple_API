@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alkan\\source\\repos\\Xo_Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59E083A7-B30A-49B7-9626-10709C5FB09D}|Xo_Test.csproj|c:\\users\\alkan\\source\\repos\\xo_test\\models\\xo_testcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E083A7-B30A-49B7-9626-10709C5FB09D}|Xo_Test.csproj|solutionrelative:models\\xo_testcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E083A7-B30A-49B7-9626-10709C5FB09D}|Xo_Test.csproj|c:\\users\\alkan\\source\\repos\\xo_test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59E083A7-B30A-49B7-9626-10709C5FB09D}|Xo_Test.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E083A7-B30A-49B7-9626-10709C5FB09D}|Xo_Test.csproj|c:\\users\\alkan\\source\\repos\\xo_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E083A7-B30A-49B7-9626-10709C5FB09D}|Xo_Test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 204,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Alkan\\source\\repos\\Xo_Test\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Alkan\\source\\repos\\Xo_Test\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T10:05:22.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Xo_TestContext.cs",
+              "DocumentMoniker": "C:\\Users\\Alkan\\source\\repos\\Xo_Test\\Models\\Xo_TestContext.cs",
+              "RelativeDocumentMoniker": "Models\\Xo_TestContext.cs",
+              "ToolTip": "C:\\Users\\Alkan\\source\\repos\\Xo_Test\\Models\\Xo_TestContext.cs",
+              "RelativeToolTip": "Models\\Xo_TestContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:04:24.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alkan\\source\\repos\\Xo_Test\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Alkan\\source\\repos\\Xo_Test\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:00:58.464Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
